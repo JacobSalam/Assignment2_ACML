@@ -134,7 +134,7 @@ text_generated = []
 # Low temperatures results in more predictable text.
 # Higher temperatures results in more surprising text.
 # Experiment to find the best setting.
-temperature = 0.9
+temperature = 0.2
 
 # Evaluation loop.
 
