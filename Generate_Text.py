@@ -19,7 +19,6 @@ char2idx = {u:i for i, u in enumerate(vocab)}
 idx2char = np.array(vocab)
 
 text_as_int = np.array([char2idx[c] for c in text])
-print(len(text))
 
 # The maximum length sentence we want for a single input in characters
 seq_length = 100
@@ -135,7 +134,7 @@ text_generated = []
 # Low temperatures results in more predictable text.
 # Higher temperatures results in more surprising text.
 # Experiment to find the best setting.
-temperature = 0.1
+temperature = 0.9
 
 # Evaluation loop.
 

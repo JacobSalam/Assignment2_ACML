@@ -111,7 +111,7 @@ checkpoint_dir = './training_checkpoints'
 # Name of the checkpoint files
 checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
 
-EPOCHS = 1
+EPOCHS = 5
 
 # Training loop
 for epoch in range(EPOCHS):
